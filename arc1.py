@@ -23,10 +23,12 @@ else:
 """
 
 
-def func(msg,times)->str:
-    tmp=len(times)
-    while tmp>0:
-        print(msg)
-        tmp-=1
+def happySad():
+    mood=input("enter ur mood now  happy or sad   :" )
+    if mood=="sad":
+        for i in range(10):
+            print(" oh baby u too fine to be sad")
+    elif mood=="happy" :
+            print(" love to hear that baby ")
 
-func("abdessamad m9wd","hello")
+happySad()
