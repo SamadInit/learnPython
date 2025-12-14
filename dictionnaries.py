@@ -10,13 +10,7 @@ print(my_dictionnary)
 print(my_dictionnary[taha])
 """
 
-def rUinTheList(d:dict):
-    user=input("ennter ur id ")
-    if id in d:
-        print("u're r registred ")
-    else :
-        print("we coudn't find you")
 
-my_dict={"id1":"abdessmad", "id2":"mohammed amine", "id3":"ahlam"}
+dictChimicals={"Au":{"Te/tf":{0:2970,1:1063},"Z/A":{0:79,1:196.967}}}
 
-rUinTheList(my_dict)
+print(dictChimicals["Au"]["Te/tf"][0])

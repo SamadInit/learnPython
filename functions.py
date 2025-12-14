@@ -21,13 +21,17 @@ if success:
 else:
     print("Too many attempts...")
 """
-def augment_all(my_list: list):
-    new_list = []
-    for item in my_list:
-        new_list.append(item + 10)
-    my_list = new_list
 
-numbers = [1, 2, 3]
-print("in the beginning:", numbers)
-augment_all(numbers)
-print("after the function is executed:", numbers)
+def oldest_person(l:list):
+    return max(l)
+    
+
+
+p1 = ("Adam", 1977)
+p2 = ("Ellen", 1985)
+p3 = ("Mary", 1953)
+p4 = ("Ernest", 1997)
+people = [p1, p2, p3, p4]
+
+print(people)
+print(oldest_person(people))
