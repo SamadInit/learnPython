@@ -13,4 +13,4 @@ print(my_dictionnary[taha])
 
 dictChimicals={"Au":{"Te/tf":{0:2970,1:1063},"Z/A":{0:79,1:196.967}}}
 
-print(dictChimicals["Au"]["Te/tf"][0])
+
